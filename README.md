@@ -33,7 +33,7 @@ python3 -m http.server 8000
 6. **Como funciona** — 3 passos até o WhatsApp
 7. **Na bancada** — **vídeo vertical** (cápsulas e ervas) + tipos de apresentação
 8. **Bem-estar** — galeria de lifestyle
-9. **Depoimentos** — *placeholder, ver abaixo*
+9. **Depoimentos** — *seção comentada, ver abaixo*
 10. **FAQ** — acordeão
 11. **Onde estamos** — endereço, horário e mapa
 12. **CTA final** + rodapé + botão flutuante de WhatsApp
@@ -54,7 +54,8 @@ atualize o `-poster.jpg` correspondente (um frame do próprio vídeo).
 | `assets/script.js` → `CONFIG` | número do WhatsApp e a mensagem que já vem preenchida |
 | `index.html` → `.socials` | trocar os `href="#"` pelos links reais de Instagram / Facebook / TikTok |
 | `index.html` → rodapé | **farmacêutico(a) responsável + nº do CRF/RS** — obrigatório (RDC 67/2007 e CFF). Há um `TODO` marcado no HTML |
-| `index.html` → `#depoimentos` | os textos são **placeholders**. Substitua por depoimentos reais (Google Meu Negócio, Instagram) ou apague a seção |
+| `index.html` → bloco `DEPOIMENTOS` | a seção está **comentada**. Descomente e preencha quando tiver depoimentos reais (com autorização de uso) |
+| `index.html` → "Já é cliente?" | trocar o link pelo `writereview?placeid=` do perfil da Harmony no Google Meu Negócio |
 | `index.html` → `#localizacao` | há um bloco comentado pronto para a **foto real da fachada/interior** da Harmony |
 | `index.html` → `og:image` / `canonical` | trocar para a URL final quando publicar |
 

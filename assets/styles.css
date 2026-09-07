@@ -487,9 +487,7 @@ a{ color:inherit; }
   .faq-cta{ flex-direction:column; align-items:stretch; text-align:center; }
   .faq-cta .btn{ width:100%; }
   .footer-grid{ grid-template-columns:1fr; gap:34px; }
-  .wa-float{ bottom:86px; padding:14px; }
-  .wa-float:hover{ gap:0; padding-right:14px; }
-  .wa-float:hover .wa-float-label{ max-width:0; }
+  .wa-float{ display:none; }
   .mobile-bar{ display:flex; }
   .local-map iframe{ height:320px; }
   .ph-float{ width:56%; right:-10px; bottom:-18px; border-width:5px; }
